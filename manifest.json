@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "SnapInsta New Button",
+  "version": "1.0",
+  "description": "Adding Download All Button in SnapInsta",
+  "permissions": ["activeTab", "downloads", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["https://snapinsta.app/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
