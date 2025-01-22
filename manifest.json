@@ -6,7 +6,7 @@
   "permissions": ["activeTab", "downloads", "scripting"],
   "content_scripts": [
     {
-      "matches": ["https://snapinsta.app/*"],
+      "matches": ["https://snapinst.app/*"],
       "js": ["content.js"]
     }
   ],
